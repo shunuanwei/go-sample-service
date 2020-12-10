@@ -3,9 +3,9 @@ package grpcservers
 import (
 	"context"
 	"flag"
-	"github.com/sdgmf/go-project-sample/api/proto"
-	"github.com/sdgmf/go-project-sample/internal/pkg/models"
-	"github.com/sdgmf/go-project-sample/mocks"
+	"github.com/sdgmf/go-sample-service/api/proto"
+	"github.com/sdgmf/go-sample-service/internal/pkg/models"
+	"github.com/sdgmf/go-sample-service/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

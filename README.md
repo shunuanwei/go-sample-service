@@ -1,4 +1,4 @@
-https://github.com/sdgmf/go-project-sample
+https://github.com/sdgmf/go-sample-service
 
 通过一个完整的项目的示例，从项目的结构、分层思想、依赖注入、错误处理、单元测试、服务治理、框架选择等方面介绍Go语言项目的最佳实践经验.
 项目分为products、details、ratings、reviews四个微服务,依赖关系如下.
@@ -12,8 +12,8 @@ https://github.com/sdgmf/go-project-sample
 ## 快速开始
 下载项目
 ```bash
-    git clone https://github.com/sdgmf/go-project-sample.git
-    cd go-project-sample
+    git clone https://github.com/shunuanwei/go-sample-service.git
+    cd go-sample-service
     git submodule init
     git submodule update
     make docker-compose

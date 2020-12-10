@@ -2,8 +2,8 @@ package grpcservers
 
 import (
 	"github.com/google/wire"
-	"github.com/sdgmf/go-project-sample/api/proto"
-	"github.com/sdgmf/go-project-sample/internal/pkg/transports/grpc"
+	"github.com/sdgmf/go-sample-service/api/proto"
+	"github.com/sdgmf/go-sample-service/internal/pkg/transports/grpc"
 	stdgrpc "google.golang.org/grpc"
 )
 

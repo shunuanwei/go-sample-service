@@ -3,7 +3,7 @@ package controllers
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/wire"
-	"github.com/sdgmf/go-project-sample/internal/pkg/transports/http"
+	"github.com/sdgmf/go-sample-service/internal/pkg/transports/http"
 )
 
 func CreateInitControllersFn(

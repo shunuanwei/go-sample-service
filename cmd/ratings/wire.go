@@ -4,20 +4,20 @@ package main
 
 import (
 	"github.com/google/wire"
-	"github.com/sdgmf/go-project-sample/internal/app/ratings"
-	"github.com/sdgmf/go-project-sample/internal/app/ratings/controllers"
-	"github.com/sdgmf/go-project-sample/internal/app/ratings/grpcservers"
-	"github.com/sdgmf/go-project-sample/internal/app/ratings/repositories"
-	"github.com/sdgmf/go-project-sample/internal/app/ratings/services"
-	"github.com/sdgmf/go-project-sample/internal/pkg/app"
-	"github.com/sdgmf/go-project-sample/internal/pkg/config"
-	"github.com/sdgmf/go-project-sample/internal/pkg/consul"
-	"github.com/sdgmf/go-project-sample/internal/pkg/jaeger"
+	"github.com/sdgmf/go-sample-service/internal/app/ratings"
+	"github.com/sdgmf/go-sample-service/internal/app/ratings/controllers"
+	"github.com/sdgmf/go-sample-service/internal/app/ratings/grpcservers"
+	"github.com/sdgmf/go-sample-service/internal/app/ratings/repositories"
+	"github.com/sdgmf/go-sample-service/internal/app/ratings/services"
+	"github.com/sdgmf/go-sample-service/internal/pkg/app"
+	"github.com/sdgmf/go-sample-service/internal/pkg/config"
+	"github.com/sdgmf/go-sample-service/internal/pkg/consul"
+	"github.com/sdgmf/go-sample-service/internal/pkg/jaeger"
 
-	"github.com/sdgmf/go-project-sample/internal/pkg/database"
-	"github.com/sdgmf/go-project-sample/internal/pkg/log"
-	"github.com/sdgmf/go-project-sample/internal/pkg/transports/grpc"
-	"github.com/sdgmf/go-project-sample/internal/pkg/transports/http"
+	"github.com/sdgmf/go-sample-service/internal/pkg/database"
+	"github.com/sdgmf/go-sample-service/internal/pkg/log"
+	"github.com/sdgmf/go-sample-service/internal/pkg/transports/grpc"
+	"github.com/sdgmf/go-sample-service/internal/pkg/transports/http"
 )
 
 var providerSet = wire.NewSet(

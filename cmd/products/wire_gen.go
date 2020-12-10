@@ -7,17 +7,17 @@ package main
 
 import (
 	"github.com/google/wire"
-	"github.com/sdgmf/go-project-sample/internal/app/products"
-	"github.com/sdgmf/go-project-sample/internal/app/products/controllers"
-	"github.com/sdgmf/go-project-sample/internal/app/products/grpcclients"
-	"github.com/sdgmf/go-project-sample/internal/app/products/services"
-	"github.com/sdgmf/go-project-sample/internal/pkg/app"
-	"github.com/sdgmf/go-project-sample/internal/pkg/config"
-	"github.com/sdgmf/go-project-sample/internal/pkg/consul"
-	"github.com/sdgmf/go-project-sample/internal/pkg/jaeger"
-	"github.com/sdgmf/go-project-sample/internal/pkg/log"
-	"github.com/sdgmf/go-project-sample/internal/pkg/transports/grpc"
-	"github.com/sdgmf/go-project-sample/internal/pkg/transports/http"
+	"github.com/sdgmf/go-sample-service/internal/app/products"
+	"github.com/sdgmf/go-sample-service/internal/app/products/controllers"
+	"github.com/sdgmf/go-sample-service/internal/app/products/grpcclients"
+	"github.com/sdgmf/go-sample-service/internal/app/products/services"
+	"github.com/sdgmf/go-sample-service/internal/pkg/app"
+	"github.com/sdgmf/go-sample-service/internal/pkg/config"
+	"github.com/sdgmf/go-sample-service/internal/pkg/consul"
+	"github.com/sdgmf/go-sample-service/internal/pkg/jaeger"
+	"github.com/sdgmf/go-sample-service/internal/pkg/log"
+	"github.com/sdgmf/go-sample-service/internal/pkg/transports/grpc"
+	"github.com/sdgmf/go-sample-service/internal/pkg/transports/http"
 )
 
 // Injectors from wire.go:

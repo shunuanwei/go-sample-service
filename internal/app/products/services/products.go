@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/pkg/errors"
-	"github.com/sdgmf/go-project-sample/api/proto"
-	"github.com/sdgmf/go-project-sample/internal/pkg/models"
+	"github.com/sdgmf/go-sample-service/api/proto"
+	"github.com/sdgmf/go-sample-service/internal/pkg/models"
 	"go.uber.org/zap"
 )
 

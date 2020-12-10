@@ -1,4 +1,4 @@
-module github.com/sdgmf/go-project-sample
+module github.com/sdgmf/go-sample-service
 
 go 1.12
 

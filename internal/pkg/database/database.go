@@ -5,7 +5,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/pkg/errors"
-	"github.com/sdgmf/go-project-sample/internal/pkg/models"
+	"github.com/sdgmf/go-sample-service/internal/pkg/models"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )

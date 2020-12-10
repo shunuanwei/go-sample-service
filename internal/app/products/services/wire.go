@@ -4,9 +4,9 @@ package services
 
 import (
 	"github.com/google/wire"
-	"github.com/sdgmf/go-project-sample/api/proto"
-	"github.com/sdgmf/go-project-sample/internal/pkg/config"
-	"github.com/sdgmf/go-project-sample/internal/pkg/log"
+	"github.com/sdgmf/go-sample-service/api/proto"
+	"github.com/sdgmf/go-sample-service/internal/pkg/config"
+	"github.com/sdgmf/go-sample-service/internal/pkg/log"
 )
 
 var testProviderSet = wire.NewSet(
