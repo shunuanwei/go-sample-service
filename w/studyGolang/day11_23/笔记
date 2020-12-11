@@ -1,0 +1,18 @@
+
+读取文件(只读):
+
+1.file.read
+2.bufio
+3.ioutil
+
+读取文件(可读可写):
+1.os.openfile   file.write
+2.openfile  bufio.newQWriteer   writer.flush
+3.ioutil.writer
+
+
+创建目录    os.makedirAll
+
+删除目录    os.removeAll
+
+重命名文件  os.Rename

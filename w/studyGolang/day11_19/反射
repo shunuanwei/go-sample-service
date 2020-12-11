@@ -1,0 +1,29 @@
+
+
+反射 : 程序运行期间对程序本身进行访问和修改的能力
+
+
+反射可以在程序运行期间动态的获取变量的各种信息
+如果是结构体,反射还可以获取结构体本身的信息
+通过反射,可以修改变量的值,可以调用关联的方法
+
+
+reflect 包实现
+
+
+
+指针: 类型名称没有   类型的种类是 ptr
+数组: 类型名称没有  类型的种类是 array
+切片: 类型名称也是没有的 类型的种类是 slice
+
+
+如果是指针,需要的是  v.Elem 去获取 kind set
+
+
+reflect.TypeOf()   获取 类型变量
+
+reflect.ValueOf()  获取 值变量
+
+reflect.TypeOf().MethodByName()  获取 结构体方法名
+
+reflect.ValueOf().method().call() 执行调用 结构体的方法

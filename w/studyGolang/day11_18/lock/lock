@@ -1,0 +1,15 @@
+
+
+查看资源竞争
+
+go build -race  main.go
+./main.exe
+
+互斥锁  :  sync   Mutex
+
+读写互斥锁 :  读 无所谓,,,写互斥....    sync.RWMutex
+
+一个 gorotine 在进行写的时候,此时,其他 gorotine 既不能读也不能写
+如果此时没有一个 gorotine 在进行写,都处于读状态时,可并发
+
+
