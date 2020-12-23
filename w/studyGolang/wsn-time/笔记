@@ -1,0 +1,7 @@
+time.after  创建一个定时器,返回一个只读channel
+
+time.now  创建一个时间对象
+
+time.Tick  定时器 不可停止
+
+time.NewTicker 周期性时间触发器 可停止 对象.stop
