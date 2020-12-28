@@ -3,6 +3,7 @@ module github.com/sdgmf/go-sample-service
 go 1.12
 
 require (
+	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/apache/thrift v0.12.0 // indirect
 	github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6 // indirect
 	github.com/armon/go-metrics v0.0.0-20190430140413-ec5e00d3c878 // indirect
@@ -29,6 +30,7 @@ require (
 	github.com/openzipkin/zipkin-go v0.1.6 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/prometheus/client_golang v0.9.3
+	github.com/prometheus/common v0.4.0
 	github.com/shunuanwei/go-sample-service v0.0.0-20201210062321-8887ed5f0c44 // indirect
 	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.4.0

@@ -1,0 +1,5 @@
+
+
+http的监听是对net.Listen()的封装，而net.Listen()是对Tcp和Unix的封装。而http的监听传入的都是tcp。所有http的监听最终都是实现的net.ListenTcp()。
+
+
