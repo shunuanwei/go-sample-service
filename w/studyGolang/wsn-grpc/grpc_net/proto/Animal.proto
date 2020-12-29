@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package Model;
+
+message Animal{
+  string name = 1;
+  int32 age = 2;
+}
+
+message AnimalRequest{
+  string animal = 1;
+  int32 code = 2;
+  string content = 3;
+}
+
+message AnimalResponse{
+  int32 code = 1;
+  string data = 2;
+}
+
+service AnimalService{
+  //简单模式
+  rpc SeaHello(Animal)returns(AnimalResponse){};
+  //双向流模式
+  rpc GetStudent(stream Animal)returns(stream AnimalResponse){};
+
+}

@@ -12,7 +12,7 @@ require (
 	github.com/gin-contrib/pprof v1.2.0
 	github.com/gin-contrib/zap v0.0.0-20190528085758-3cc18cd8fce3
 	github.com/gin-gonic/gin v1.6.3
-	github.com/golang/protobuf v1.3.3
+	github.com/golang/protobuf v1.4.1
 	github.com/google/wire v0.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
@@ -40,7 +40,8 @@ require (
 	github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77 // indirect
 	github.com/zsais/go-gin-prometheus v0.1.0
 	go.uber.org/zap v1.16.0
-	google.golang.org/grpc v1.22.1
+	google.golang.org/grpc v1.27.0
+	google.golang.org/protobuf v1.25.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
 
