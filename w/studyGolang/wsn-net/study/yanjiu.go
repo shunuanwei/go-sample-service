@@ -71,9 +71,4 @@ func main() {
 		tcp.Close()
 	}
 
-
-	net.Dial(
-
-
-
 }
