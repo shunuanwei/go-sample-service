@@ -4,6 +4,7 @@ go 1.12
 
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
+	github.com/Shopify/sarama v1.27.2
 	github.com/apache/thrift v0.12.0 // indirect
 	github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6 // indirect
 	github.com/armon/go-metrics v0.0.0-20190430140413-ec5e00d3c878 // indirect
@@ -19,7 +20,6 @@ require (
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645
 	github.com/hashicorp/consul v1.2.3
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
-	github.com/hashicorp/go-uuid v1.0.1 // indirect
 	github.com/hashicorp/memberlist v0.1.4 // indirect
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mattn/go-colorable v0.1.2 // indirect
@@ -33,7 +33,7 @@ require (
 	github.com/prometheus/common v0.4.0
 	github.com/shunuanwei/go-sample-service v0.0.0-20201210062321-8887ed5f0c44 // indirect
 	github.com/spf13/viper v1.7.1
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.6.1
 	github.com/uber-go/atomic v1.4.0 // indirect
 	github.com/uber/jaeger-client-go v2.16.0+incompatible
 	github.com/uber/jaeger-lib v2.0.0+incompatible
