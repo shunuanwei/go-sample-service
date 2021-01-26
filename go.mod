@@ -13,6 +13,7 @@ require (
 	github.com/gin-contrib/pprof v1.2.0
 	github.com/gin-contrib/zap v0.0.0-20190528085758-3cc18cd8fce3
 	github.com/gin-gonic/gin v1.6.3
+	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/golang/protobuf v1.4.1
 	github.com/google/wire v0.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0
